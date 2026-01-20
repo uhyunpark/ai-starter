@@ -7,6 +7,7 @@ A language/framework-agnostic starter kit for AI-driven development with Claude.
 - **Agents**: Specialized AI assistants for planning, architecture, code review, and security
 - **Rules**: Universal coding standards that apply to all interactions
 - **Skills**: On-demand knowledge modules (includes a meta-skill for creating custom skills)
+- **Hooks**: Event-driven scripts for workflow automation (file tracking, validation, etc.)
 - **Claude-guided Onboarding**: Claude will help customize this starter for your specific project
 
 ## Quick Start
@@ -56,6 +57,8 @@ Just tell Claude:
 
 ```
 .claude/
+├── settings.json           # Claude Code configuration (hooks, env vars)
+│
 ├── agents/
 │   ├── planner.md          # Implementation planning
 │   ├── architect.md        # System design
@@ -66,6 +69,9 @@ Just tell Claude:
 │   ├── security.md         # Security guidelines
 │   ├── coding-style.md     # Coding principles
 │   └── git-workflow.md     # Git conventions
+│
+├── hooks/
+│   └── post-tool-use-tracker.sh  # Example: track file modifications
 │
 └── skills/
     └── skill-developer/    # Meta-skill for creating custom skills
@@ -102,6 +108,9 @@ On-demand knowledge modules loaded when relevant. Use the included **skill-devel
 "Use skill-developer to create a React development skill"
 "Use skill-developer to create a Django skill"
 ```
+
+### Hooks
+Event-driven scripts that run at specific points in Claude's workflow. The included example tracks file modifications, but you can create hooks for validation, notifications, or custom automation.
 
 ## Customization
 
@@ -153,6 +162,7 @@ Claude will guide you through creating a custom skill with proper structure and 
 - [Agents README](.claude/agents/README.md) - How to use and create agents
 - [Rules README](.claude/rules/README.md) - How rules work
 - [Skills README](.claude/skills/README.md) - How to use and create skills
+- [Hooks README](.claude/hooks/README.md) - How to use and create hooks
 
 ## Contributing
 

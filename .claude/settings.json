@@ -1,0 +1,19 @@
+{
+    "hooks": {
+        "PostToolUse": [
+          {
+            "matcher": "Edit|MultiEdit|Write",
+            "hooks": [
+              {
+                "type": "command",
+                "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/post-tool-use-tracker.sh"
+              }
+            ]
+          }
+        ]
+    },
+    "env": {
+      "ENABLE_TOOL_SEARCH": "true"
+    }
+}
+  
