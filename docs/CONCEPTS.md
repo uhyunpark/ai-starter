@@ -14,6 +14,19 @@ This document explains the core concepts of Claude Code's extensibility system: 
 
 ---
 
+## Official Resources
+
+For the most up-to-date information, see the official Claude Code documentation:
+
+- [Overview](https://code.claude.com/docs/en/overview)
+- [Hooks](https://code.claude.com/docs/en/hooks) | [Hooks Guide](https://code.claude.com/docs/en/hooks-guide)
+- [Skills](https://code.claude.com/docs/en/skills)
+- [Sub-agents](https://code.claude.com/docs/en/sub-agents)
+- [Settings](https://code.claude.com/docs/en/settings)
+- [Security](https://code.claude.com/docs/en/security)
+
+---
+
 ## Overview
 
 Claude Code can be customized and extended through four main mechanisms:

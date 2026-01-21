@@ -1,5 +1,7 @@
 # Hooks
 
+> **Official Documentation**: [Claude Code Hooks](https://code.claude.com/docs/en/hooks) | [Hooks Guide](https://code.claude.com/docs/en/hooks-guide)
+
 Hooks are scripts that run in response to Claude Code events. They enable workflow automation and can inject context, block operations, or run follow-up actions.
 
 ## Included Hooks

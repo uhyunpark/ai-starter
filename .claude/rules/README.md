@@ -1,5 +1,7 @@
 # Rules
 
+> **Official Documentation**: [Claude Code Settings](https://code.claude.com/docs/en/settings)
+
 Rules are always-active guidelines that Claude follows throughout every interaction. They define coding standards, security requirements, and workflow practices for your project.
 
 ## How Rules Work

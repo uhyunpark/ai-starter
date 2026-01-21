@@ -1,6 +1,10 @@
 # Hook Mechanisms - Deep Dive
 
-Technical deep dive into how the UserPromptSubmit and PreToolUse hooks work.
+> **Official Documentation**: [Claude Code Hooks](https://code.claude.com/docs/en/hooks)
+>
+> This document focuses specifically on hooks for **skill auto-activation**. For general hook usage, see the official docs above.
+
+Technical deep dive into how the UserPromptSubmit and PreToolUse hooks work for skill triggering.
 
 ## Table of Contents
 

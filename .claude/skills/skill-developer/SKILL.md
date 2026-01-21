@@ -3,6 +3,8 @@ name: skill-developer
 description: Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.
 ---
 
+> **Official Documentation**: [Claude Code Skills](https://code.claude.com/docs/en/skills)
+
 # Skill Developer Guide
 
 ## Purpose

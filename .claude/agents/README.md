@@ -1,5 +1,7 @@
 # Agents
 
+> **Official Documentation**: [Claude Code Sub-agents](https://code.claude.com/docs/en/sub-agents)
+
 Agents are specialized AI assistants that Claude can invoke to help with specific tasks. They have access to tools and are optimized for particular workflows.
 
 ## How to Use Agents

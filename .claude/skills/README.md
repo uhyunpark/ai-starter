@@ -1,5 +1,7 @@
 # Skills
 
+> **Official Documentation**: [Claude Code Skills](https://code.claude.com/docs/en/skills)
+
 Skills are on-demand knowledge modules that provide Claude with specialized information about specific topics, technologies, or workflows. They are loaded when relevant to the current task.
 
 ## How Skills Work
